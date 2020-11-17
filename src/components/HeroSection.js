@@ -6,9 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src="/videos/video-2.mp4" autoPlay loop muted />
-            <h1>TITLE HERE</h1>
-            <p>Text was here all along</p>
+            {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
+            <h1>Fake Articles</h1>
+            <p>ReactJS Front End Showcase</p>
             <div className="hero-btns">
                 <Button className='btns' 
                 buttonStyle='btn--outline' 
