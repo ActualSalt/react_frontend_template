@@ -93,12 +93,6 @@ function Footer() {
                 aria-label='Facebook'>
                     <i className='fab fa-twitter'/>
                 </Link>
-                <Link className='social-icon-link twitter'
-                to='/'
-                target='_blank'
-                aria-label='Facebook'>
-                    <i className='fab fa-twitter'/>
-                </Link>
                 <Link className='social-icon-link linkedin'
                 to='/'
                 target='_blank'
