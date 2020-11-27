@@ -12,17 +12,18 @@ function HeroSection() {
                 <Button className='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--large'>
-                    View Projects 
+                    Introduction
                 </Button>
                 <Button className='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--large'>
-                    Get Resume
+                    View Projects 
                 </Button>
+                
                 <Button className='btns' 
                 buttonStyle='btn--primary' 
                 buttonSize='btn--large'>
-                    Contact Min
+                    Contact
                 </Button>
             </div>
         </div>
