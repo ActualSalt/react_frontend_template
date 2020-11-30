@@ -16,13 +16,15 @@ function HeroSection() {
                 </Button>
                 <Button className='btns' 
                 buttonStyle='btn--outline' 
-                buttonSize='btn--large'>
+                buttonSize='btn--large'
+                link='projects'>
                     View Projects 
                 </Button>
                 
                 <Button className='btns' 
                 buttonStyle='btn--primary' 
-                buttonSize='btn--large'>
+                buttonSize='btn--large'
+                link='contact'>
                     Contact
                 </Button>
             </div>
