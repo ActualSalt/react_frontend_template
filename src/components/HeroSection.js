@@ -6,23 +6,29 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
-            <h1>Fake Articles</h1>
-            <p>ReactJS Front End Showcase</p>
+            <h1>Min Young Lee</h1>
+            <p>Full Stack Web Developer</p>
             <div className="hero-btns">
                 <Button className='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--large'>
-                    Get Started
+                    Introduction
                 </Button>
                 <Button className='btns' 
+                buttonStyle='btn--outline' 
+                buttonSize='btn--large'
+                link='projects'>
+                    View Projects 
+                </Button>
+                
+                <Button className='btns' 
                 buttonStyle='btn--primary' 
-                buttonSize='btn--large'>
-                    Watch Trailer <i className='far fa-play-circle' />
+                buttonSize='btn--large'
+                link='contact'>
+                    Contact
                 </Button>
             </div>
         </div>
     )
 }
-
-export default HeroSection
+export default HeroSection;

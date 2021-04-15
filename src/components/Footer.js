@@ -64,7 +64,7 @@ function Footer() {
         <div className='socialmedia-wrap'>
             <div className='footer-logo'>
                 <Link className='social-logo'>
-                    TRVL <i className='fab fa-typo3' />
+                    Min Young Lee Dev <i className='fab fa-typo3' />
                 </Link>
             </div>
             <small className='website-rights'>Copyrights 2020</small>
@@ -74,12 +74,6 @@ function Footer() {
                 target='_blank'
                 aria-label='Facebook'>
                     <i className='fab fa-facebook-f'/>
-                </Link>
-                <Link className='social-icon-link instagram'
-                to='/'
-                target='_blank'
-                aria-label='Facebook'>
-                    <i className='fab fa-instagram'/>
                 </Link>
                 <Link className='social-icon-link youtube'
                 to='/'
